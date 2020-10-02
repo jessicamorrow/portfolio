@@ -4,20 +4,34 @@ body {
   background-size: cover;
 }
 
+.navbar {
+  font-family: 'Cinzel', serif;
+}
+
 .container {
   text-align: center;
 }
 
 .intro-message {
   padding: 300px;
+  font-family: 'Cinzel', serif;
 }
 
 .featuredArtworkLink {
+  font-family: 'Cinzel', serif;
   color: #ffffff;
+}
 
+a:hover {
+  color: #444444;
+}
+
+a:link {
+  text-decoration: none;
 }
 
 .featured-summary {
+  font-family: 'Cinzel', serif;
   font-size: small;
   color: #ffffff;
 }
