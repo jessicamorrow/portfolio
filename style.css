@@ -1,6 +1,6 @@
 
 body {
-  background: url('https://free4kwallpapers.com/uploads/originals/2020/01/25/ecola-state-park--oregon-oc-wallpaper.jpg') no-repeat center center fixed;
+  background: url('./images/forest.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -15,6 +15,7 @@ body {
 .intro-message {
   padding: 300px;
   font-family: 'Cinzel', serif;
+  text-align: center;
 }
 
 .featuredArtworkLink {
@@ -28,10 +29,26 @@ a:hover {
 
 a:link {
   text-decoration: none;
+  outline: none;
 }
 
 .featured-summary {
   font-family: 'Cinzel', serif;
   font-size: small;
   color: #ffffff;
+  margin-bottom: 250px;
+}
+
+#about {
+  font-family: 'Piazzolla', serif;
+  color: #ffffff;
+  margin: 80px;
+}
+
+.about-me {
+  padding-bottom: 50px;
+}
+
+.linkedin {
+  margin-right: 20px;
 }
